@@ -441,25 +441,38 @@
 		var jian=document.getElementById("num1");
 		var jia=document.getElementById("num2");
 		jia.onclick = function(){
-			if(amount.value>0 && amount.value<5){
-			    amount.value = parseInt(amount.value)+1;
-			    jia.style.cursor = "auto";
-			}
-			else{
-			  	jia.style.cursor = "no-drop";
-			}
-
+		  	if(amount.value>0 && amount.value<5){
+		    	amount.value = parseInt(amount.value)+1;
+		    	jia.style.cursor = "pointer";
+		  	}
+		  	else{
+		  		jia.style.cursor = "no-drop";
+		  	}
 		}
 		jian.onclick = function(){
-		  if(amount.value <6 && amount.value>1){
-		    amount.value = parseInt(amount.value)-1;
-		    jian.style.cursor = "auto";
-
-		  }
-		   else{
-		  	jian.style.cursor = "no-drop";
-		  }
-
+			if(amount.value <6 && amount.value>1){
+		    	amount.value = parseInt(amount.value)-1;
+		    	jian.style.cursor = "pointer";
+		  	}
+		  	else{
+		  		jian.style.cursor = "no-drop";
+		  	}
+		}
+		jia.onmouseover = function(){
+		  	if(amount.value>0 && amount.value<6){
+		    	jia.style.cursor = "pointer";
+		  	}
+		  	else{
+		  		jia.style.cursor = "no-drop";
+		  	}
+		}
+		jian.onmouseover = function(){
+			if(amount.value <6 && amount.value>0){
+		    	jian.style.cursor = "pointer";
+		  	}
+		  	else{
+		  		jian.style.cursor = "no-drop";
+		  	}
 		}
 		//5.点击“加入购物车”按钮弹出蒙罩效果，点击“X”或者“继续购物”按钮，蒙罩消失
 		//弹框
