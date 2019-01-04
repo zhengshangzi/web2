@@ -49,6 +49,7 @@ a{
 	
 }
 .cover-b-QQ{
+	color:#000000;
 	width:20px;
 	height:20px;
 	padding-right:32px;
@@ -56,31 +57,37 @@ a{
 }
 .cover-b-weixin{
 	width:20px;
+	color:#000000;
 	height:19px;
 	padding-right:32px;
 	background: url(../img/weixin.png) no-repeat;
 }
 .cover-b-weibo{
+	color:#000000;
 	width:20px;
 	height:19px;
 	padding-right:32px;
 	background: url(../img/weibo.png) no-repeat;
 }
 .cover-b-xiaoxi{
+	color:#000000;
 	width:20px;
 	padding-right:10px;
 	background: url(../img/xiaoxi.png) no-repeat 0 2px;padding-left: 17px;
 }
 .cover-b-dingdan{
+	color:#000000;
 	padding-right:12px;
 	background: url(../img/dingdan.jpg) no-repeat 0 2px;padding-left: 17px;
 }
 .cover-b-shouji{
+	color:#000000;
 	width:20px;
 	padding-right:10px;
 	background: url(../img/shouji.png)  no-repeat 0 2px;padding-left: 15px ;
 }
 .cover-b-gouwuche{
+	color:#000000;
 	width:20px;
 	padding-right:10px;
 	background: url(../img/gouwuche.jpg) no-repeat 0 2px;padding-left: 19px ;
@@ -121,6 +128,7 @@ a{
 	background-color:#ffffff;
 	margin:0 auto;
 	font: 10px 微软雅黑 ;
+	color:#000000;
 }
 .cover-d-2 li{
 	float:left;
@@ -132,6 +140,7 @@ a{
 	background: url(../img/d.png) no-repeat right center;
 }
 .cover-d-2 li a{
+	color:#000000;
 	display:block;
 	height:20px;
 }
@@ -227,11 +236,13 @@ a{
 	padding:0 30px;
 	line-height:40px;
 	font-size: 16px;
+	color:#000000;
 
 }
 .cover-1-b li a{
 	display:block;
 	height:20px;
+	color:#000000;
 }
 .cover-1-b li:last-child{
 	background:none;
@@ -287,6 +298,7 @@ a{
 .hexin-1-2 li a{
 	display:block;
 	height:12px;
+	color:#000000;
 }
 .hexin-1-2 li:last-child{
 	background:none;

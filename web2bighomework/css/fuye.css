@@ -46,35 +46,42 @@ a{
 	height:20px;
 	padding-right:32px;
 	background: url(../img/QQ.png) no-repeat ;
+	color:#000000;
 }
 .cover-b-weixin{
 	width:20px;
 	height:19px;
+	color:#000000;
 	padding-right:32px;
 	background: url(../img/weixin.png) no-repeat;
 }
 .cover-b-weibo{
 	width:20px;
 	height:19px;
+	color:#000000;
 	padding-right:32px;
 	background: url(../img/weibo.png) no-repeat;
 }
 .cover-b-xiaoxi{
 	width:20px;
+	color:#000000;
 	padding-right:10px;
 	background: url(../img/xiaoxi.png) no-repeat 0 2px;padding-left: 17px;
 }
 .cover-b-dingdan{
 	padding-right:12px;
+	color:#000000;
 	background: url(../img/dingdan.jpg) no-repeat 0 2px;padding-left: 17px;
 }
 .cover-b-shouji{
 	width:20px;
 	padding-right:10px;
+	color:#000000;
 	background: url(../img/shouji.png)  no-repeat 0 2px;padding-left: 15px ;
 }
 .cover-b-gouwuche{
 	width:20px;
+	color:#000000;
 	padding-right:10px;
 	background: url(../img/gouwuche.jpg) no-repeat 0 2px;padding-left: 19px ;
 }
@@ -127,6 +134,7 @@ a{
 .cover-d-2 li a{
 	display:block;
 	height:20px;
+	color:#000000;
 }
 .cover-d-2 li:last-child{
 	background:none;
